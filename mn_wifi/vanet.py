@@ -14,8 +14,8 @@ from random import randint
 from time import sleep
 from threading import Thread as thread
 from random import randrange
-from pylab import ginput as ginp, math, cos, sin, np
-
+from pylab import ginput as ginp, cos, sin, np
+import math
 from mininet.log import info
 
 from mn_wifi.mobility import Mobility
